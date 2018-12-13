@@ -1,2 +1,2 @@
-k,h = map(int,raw_input().split())
-print(k**h)
+y,z = map(int,raw_input().split())
+print(y**z)
