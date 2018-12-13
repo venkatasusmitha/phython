@@ -1,3 +1,3 @@
-m,n=map(str,raw_input ().split()) 
-for i in range(0,int(n)): 
-     print m
+a,b=map(str,raw_input ().split()) 
+for l in range(0,int(b)): 
+     print a
