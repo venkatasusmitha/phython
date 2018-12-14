@@ -1,5 +1,5 @@
-a=int(raw_input())
+c=int(raw_input())
 sum=0
-for i in range(1,a+1):
-	sum=sum+i
+for l in range(1,c+1):
+	sum=sum+l
 print sum
