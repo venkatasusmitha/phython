@@ -1,2 +1,2 @@
-n=raw_input()
-print n.title()
+h=raw_input()
+print h.title()
