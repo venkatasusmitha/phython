@@ -1,2 +1,2 @@
-s,n,r=[int(x) for x in raw_input().split()]
-print (s*n)/r
+s,n,p=[int(y) for y in raw_input().split()]
+print (s*n)/p
