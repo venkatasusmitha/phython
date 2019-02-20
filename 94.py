@@ -1,2 +1,2 @@
-n,k=[int(x)for x in raw_input().split()]
-print(k)
+n,l=[int(y)for y in raw_input().split()]
+print(l)
