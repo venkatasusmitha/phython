@@ -1,9 +1,9 @@
 def do_stuff(input):
-	s, op, n = [s for s in input.split(" ")]
+	s, op, m = [s for s in input.split(" ")]
 	if op == '/':
-		print(int(s) / int(n))
+		print(int(s) / int(m))
 	else:
-		print(int(s) % int(n))
+		print(int(s) % int(m))
 while True:
   try:
     value = raw_input()
