@@ -1,9 +1,9 @@
-def findK(n,s): 
+def findK(n,z): 
     half=int((n+1)/2) 
-    if s>n: 
-        return(2*(s-half)) 
+    if z>n: 
+        return(2*(z-half)) 
     else: 
-        return(2*s - 1) 
+        return(2*z - 1) 
 n=5
-s=3
-print(findK(n,s)) 
+z=3
+print(findK(n,z)) 
