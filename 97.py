@@ -1,7 +1,7 @@
-n=int(raw_input())
+z=int(raw_input())
 rev=0
-while(n>0):
-    dig=n%10
+while(z>0):
+    dig=z%10
     rev=rev*10+dig
-    n=n//10
+    z=z//10
 print(rev)
