@@ -1,7 +1,7 @@
-r=int(raw_input())
+s=int(raw_input())
 pro=1
-while r>0:
-    dig=r%10
+while s>0:
+    dig=s%10
     pro=pro*dig
-    r=r/10
+    s=s/10
 print pro
