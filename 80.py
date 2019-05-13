@@ -5,7 +5,7 @@ def odddig():
 		p1.append(n%10)
 		n//=10
 	for i in range(len(p1)-1,-1,-1):
-		if p[i]%2!=0:
+		if p1[i]%2!=0:
 			print(p1[i]),
 try:
 	odddig()
