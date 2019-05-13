@@ -1,2 +1,2 @@
-q=int(raw_input())
-print(q*2)
+h=int(raw_input())
+print(h*2)
