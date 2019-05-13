@@ -1,5 +1,5 @@
-n=int(raw_input())
-if (n%13==0):
+n2=int(raw_input())
+if (n2%13==0):
     print ("yes")
 else:
     print("no")
