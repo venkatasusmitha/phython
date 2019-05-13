@@ -1,2 +1,2 @@
-n=raw_input()
-print min(n.split())
+s1=raw_input()
+print min(s1.split())
