@@ -1,12 +1,12 @@
 def odddig():
 	n=int(input())
-	p=[]
+	p1=[]
 	while(n!=0):
-		p.append(n%10)
+		p1.append(n%10)
 		n//=10
-	for i in range(len(p)-1,-1,-1):
+	for i in range(len(p1)-1,-1,-1):
 		if p[i]%2!=0:
-			print(p[i]),
+			print(p1[i]),
 try:
 	odddig()
 except:
