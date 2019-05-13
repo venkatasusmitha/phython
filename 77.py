@@ -1,5 +1,5 @@
-q=int(raw_input())
-if q>0:
-    for i in range(1,q+1):
-        if q%i==0:
+q2=int(raw_input())
+if q2>0:
+    for i in range(1,q2+1):
+        if q2%i==0:
             print i,
